@@ -1,7 +1,7 @@
 #iclude "main.h"
 
 /**
- * main - Entry point
+ * main - Entry point _putchar
  *
  * Return: Always 0 (Success)
  */
