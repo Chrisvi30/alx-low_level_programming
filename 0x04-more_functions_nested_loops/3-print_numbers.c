@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 	int z;
 
-	for (z = 48; z < 58; n++)
+	for (z = 48; z < 58; z++)
 	{
 		return (z);
 	}
