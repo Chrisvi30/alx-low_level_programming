@@ -2,12 +2,10 @@
 
 /**
  * string_toupper - changes all lowercase letters to uppercase
- * 
  * @s: string to change
  *
  * Return: address of s
  */
-
 char *string_toupper(char *s)
 {
 	int i = 0;
