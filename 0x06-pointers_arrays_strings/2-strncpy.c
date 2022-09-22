@@ -4,7 +4,7 @@
  * _strncpy - cpoies n bytes of src to the dest string
  * @dest: string to copy to
  * @src: string being copied
- * @src: string being copied
+ * @n: max number of bytes to copy
  *
  * Return: returns
  */
