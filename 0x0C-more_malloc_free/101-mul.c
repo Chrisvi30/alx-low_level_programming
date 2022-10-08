@@ -26,7 +26,8 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - Creates an array of chars and initializes it with the character 'x'. Adds a terminating null byte.
+ * create_xarray - Creates an array of chars and initializes
+ * it with the character 'x'. Adds a terminating null byte.
  * @size: The size of the array to be initialized.
  *
  * Return: A pointer to the array.
@@ -51,7 +52,8 @@ char *create_xarray(int size)
 }
 
 /**
- * iterate_zeroes - Iterates through a string of numbers containing leading zeroes until it hits a non-zero number.
+ * iterate_zeroes - Iterates through a string of numbers containing 
+ * leading zeroes until it hits a non-zero number.
  * @str: The string of numbers to be iterate through
  *
  * Return: A pointer to the next non-zero element.
@@ -91,7 +93,8 @@ int get_digit(char c)
  * @digit: The single digit.
  * @zeroes: The necessary number of leading zeroes.
  *
- * Description: If mult contains a non-digit, the function exits with a status value of 98.
+ * Description: If mult contains a non-digit,
+ * the function exits with a status value of 98.
  */
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
@@ -210,7 +213,6 @@ int main(int argc, char *argv[])
 	size = find_len(argv[1]) + find_len(argv[2]);
 	final_prod = create_xarray(size + 1);
 	next_prod = create_xarray(size + 1);
-	
 	for (index = find_len(argv[2]) - 1; index >= 0; index--)
 	{
 		digit = get_digit(*(argv[2] + index));
