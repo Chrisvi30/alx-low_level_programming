@@ -20,6 +20,12 @@ int len(char *str)
 	return (len);
 }
 
+/**
+ * num_words - counts words in input string
+ * @str: input string
+ * Return: 0 on failure, words on success
+ */
+
 int num_words(char *str)
 {
 	int i = 0, words = 0;
@@ -42,6 +48,12 @@ int num_words(char *str)
 	}
 	return (words);
 }
+
+/**
+ * strtow - splits a string into words
+ * @str: input string to split
+ * Return: pointer to new string
+ */
 
 char **strtow(char *str)
 {
